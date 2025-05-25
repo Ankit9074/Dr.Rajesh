@@ -11,6 +11,7 @@ const Navbar = () => {
     return location.pathname === path;
   };
 
+  
   return (
     <header className="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-sm border-b shadow-sm animate-fade-in">
       <div className="container-custom flex h-16 items-center justify-between">
